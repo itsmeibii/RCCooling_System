@@ -1,0 +1,29 @@
+# ----- KiCad: ignore backups & autosaves -----
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.tmp
+*.bak
+*.crc
+
+# Project-local (per-user) settings — usually not portable
+*.kicad_prl
+
+# ----- OS/editor noise -----
+.DS_Store
+Thumbs.db
+.~lock.*
+
+# ----- Generated outputs (optional to ignore) -----
+# If you want to keep fabrication outputs in Git, remove these lines.
+*.gbr
+*.drl
+*.rpt
+*.pos
+*.net
+*.zip
+bom*.csv
+fabrication/
+plots/
+gerbers/
+exports/
